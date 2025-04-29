@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Just+Me+Again+Down+Here&family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body { /*Benefícios e Vantagens ()*/
+  background: #fff;
+  color: #333;
+}
+
+header { /*Barra superior (JUCafe)*/
+  background: #982417;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  
+}
+.menu{
+  position: relative;
+
+}
+nav a { /*Páginas Ben/Dep/Franq () */
+  color: #ffffff;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-family: Just Me Again Down Here, sans-serif;
+  font-size: 18px;
+}
+
+nav a:hover { /*Páginas Ben/Dep/Franq ( Qd clicar muda de cor) */
+  color: #f37703f1;
+}
+
+.Botton { /*Imagen Background xicara()*/
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: url('../Img/xc2.jpg') no-repeat center/cover;
+  height: 500px;
+  position: center;
+}
+
+.Botton-text { /*Texto Seja nosso Franqueado ()*/
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: #333; 
+  margin-bottom: 100px;
+  font-size: 20px;
+}
+
+.Botton-text h1 { /*Texto Seja nosso Franqueado ()*/
+  margin-bottom: 10px;
+ 
+}
+
+.Botton-text p { /*Texto Uma das redes q mais crece ()*/
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.btn1 { /*Texto e Botton (Saber mais)*/
+  background: #fcfbfb;
+  color: #333;
+  padding: 10px 20px;
+  border: #f37703f1;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn2 { /*Texto e Botton (Registrar Interesse)*/
+  background: #FF9C2D;
+  color: #333;
+  padding: 10px 20px;
+  border: #f37703f1;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover { /*Botton( Qd clicar muda de cor)*/
+  background: #f37703f1;
+}
+
+section { /*Depoimento fundo preto()*/
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.benefits { /*Beneficios e Vantagens fundo beige()*/
+  background: #fff0d1;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 40px;
+}
+.Benef {
+  color: #982417;
+}
+.Marca{
+  color: #982417;
+}
+.Otimo {
+  color: #982417;
+}
+.Suport {
+  color: #982417;
+}
+.benefit-box { /*Beneficios e Vantagens fundo branco()*/
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.depoimento { /*Depoimento fundo preto()*/
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.depoimento img { /*Imagem moça()*/
+  width: 250px;
+  border-radius: 10px;
+}
+
+.depoimento-text {
+  max-width: 600px;
+  color: #ffffff;
+  padding: 0 50px 10px 0;
+}
+
+.modelos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modelo {
+  flex: 1;
+  min-width: 250px;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.Model {
+  color: #982417;
+}
+.textbistro{
+  background-color: #982417;
+  color: #fff;
+}
+.textquiosque{
+  background-color: #982417;
+  color: #fff;
+}
+footer {
+  display: flex;
+  background: #982417;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  font-size: 14px;
+  /* gap: ; */
+  /* flex-wrap: wrap; */
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+footer a {
+  color: #FFD700;
+  text-decoration: none;
+  /* flex-wrap: wrap; */
+  /* display: flex; */
+
+}
